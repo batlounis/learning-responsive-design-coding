@@ -12,7 +12,7 @@ $(function(){
 	    },
 	    { 
         sel : $('#box2'),
-        content : 'display: inline block; // yes please!'
+        content : 'display: inline-block; // yes please!'
 	    },
 	    { 
         sel : $('#box2'),
