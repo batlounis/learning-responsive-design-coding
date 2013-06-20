@@ -20,7 +20,10 @@ $(function(){
 	    },
 	    { 
         sel : $('#box2'),
-        content : 'width: 50%; // responsive'
+        content : 'width: 50%; // responsive',
+				callback: function(){
+					$('#box3 .hide').removeClass('hide');
+				}
 	    },
 	    { 
         sel : $('#num3'),
@@ -28,7 +31,10 @@ $(function(){
 	    },
 	    { 
         sel : $('#num3'),
-        content : 'text-align: end; // :-)'
+        content : 'text-align: end; // :-)',
+				callback: function(){
+					$('#box2 .hide').removeClass('hide');
+				}
 	    },
 	    { 
         sel : $('#boxes'),

@@ -8,6 +8,7 @@ body{
 
 a{
 	color: gray;
+	text-decoration: none;
 }
 
 h1, h2{
@@ -82,6 +83,10 @@ section:nth-child(3){
 
 section:last-child{
 	-webkit-margin-end: 0;
+}
+
+.hide{
+	display: none;
 }
 
 @media screen and (max-width:500px){
